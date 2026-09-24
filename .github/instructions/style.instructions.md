@@ -40,6 +40,13 @@ ALL UI components MUST use dark theme colors:
 - Mobile-first approach
 - Ensure readability on all screen sizes
 
+## Comments in Markup and Styles
+
+- Comment only the intent behind non-obvious layout, accessibility, or browser
+  workarounds; do not restate utility classes or markup.
+- Keep comments current when the related styles change, and remove comments
+  whose rationale no longer applies.
+
 ## Utility Classes
 
 - Prefer utility classes over custom CSS when possible
